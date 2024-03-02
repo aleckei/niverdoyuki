@@ -1,0 +1,46 @@
+body {
+    background-color: f7f4ee;
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 95px;
+    padding: 70px;
+}
+
+.mensagem-texto{
+    font-size: 50px;
+    background-color: #de3535;
+    padding-bottom: 5px;
+    border-radius: 100px;
+    color: #f7f4ee;
+}
+
+.imagem {
+    width: 30%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.text {
+    font-size: 50px;
+    color: #361d1d;
+}
+
+@media screen and (max-width: 400px) {
+    .mensagem {
+        display: flex;
+        padding: 10px;
+    }
+
+    .mensagem-texto {
+        font-size: 30px;
+    }
+
+    .imagem {
+        width: 60%;
+        margin: auto;
+    }
+}

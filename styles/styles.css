@@ -1,0 +1,59 @@
+.conteúdo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10rem;
+    gap: 10rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.fonte {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #252525;
+}
+
+.link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #f7f4ee;
+    padding: 30px;
+    background-color: #de3535;
+    border-radius: 20px;
+}
+
+.lista {
+    display:flex;
+    justify-content:space-around;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+    border: 5rem;
+}
+
+.link-1 {
+    margin-left: 14rem;
+}
+
+@media screen and (max-width: 400px) {
+    .mensagem {
+        display: flex;
+        padding: 10px;
+    }
+
+    .mensagem-texto {
+        font-size: 30px;
+    }
+
+    .imagem {
+        width: 60%;
+        margin: auto;
+    }
+}
